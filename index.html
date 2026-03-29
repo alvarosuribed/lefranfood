@@ -3148,7 +3148,7 @@
         }
 
         // ── MARQUEE BANNER & DYNAMIC LAYOUT ──
-        let lastWinW = window.innerWidth;
+        let lastWinW = 0;
         function updateLayout() {
             const currentW = window.innerWidth;
             if (currentW < 768 && currentW === lastWinW) return;
